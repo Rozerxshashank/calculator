@@ -1,0 +1,64 @@
+.body{
+    justify-content: center;
+    position: absolute;
+    background-image: url("pan.jpg");
+    
+}
+h1{
+    text-align: center;
+font-size: 9vmin;
+position: relative;
+left: 1%;
+font-family: sans-serif;
+color:gold;
+}
+.container{
+display: flex;
+background-color:#333;
+justify-content: center;
+padding:20px;
+border-radius: 10px;
+width: fit-content;
+height: fit-content;
+position: absolute;
+top: 20%;
+left: 34%;  
+}
+.calculator .display{ width: 100%; 
+    padding: 50px;
+     box-sizing: border-box; 
+     text-align: right;
+      background-color: #555;
+       color: white; 
+       border: none;
+       font-size: 30px;
+        border-radius: 5px;
+}
+.calculator button{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background:transparent;
+    color: white;
+    font-size: 50px;
+     cursor: pointer;
+    margin: 5px;
+}
+.calculator button.operator { 
+    background-color: #ff9500; 
+    color:white;}
+.calculator button.equalbtn{
+   background-color: #ff9500; 
+    color:white;
+}
+.button:hover{
+    background-color:#e09030;
+}
+input::placeholder{
+    font-size: 30px;    
+}
+body img{
+ display: flex;
+ ;
+
+}
