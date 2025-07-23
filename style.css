@@ -1,8 +1,6 @@
 .body{
     justify-content: center;
-    position: absolute;
-    background-image: url("pan.jpg");
-    
+    position: absolute; 
 }
 h1{
     text-align: center;
