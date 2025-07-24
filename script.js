@@ -46,4 +46,4 @@ document.addEventListener("keydown",(e)=>{
         input.value=eval(input.value);
     }
 })
-
+/*end*/
