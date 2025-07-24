@@ -1,49 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-   <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1 user-scalable=no, shrink-to-fit=no">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <title>Calculator</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" />
 </head>
 <body>
     <h1>Calculator</h1>
+   <div class="wrapper">
+    <img src="https://i.pinimg.com/736x/bb/2a/87/bb2a87f1adf4699dde1162e3771ab005.jpg" alt="Po" class="panda" />
+
     <div class="container">
+        <input type="text" placeholder="00" class="display" id="input" disabled />
+
         <div class="calculator">
-            <input type="text" placeholder="00" class="display" id="input" disabled>
-            <div>
-                <button class="button operator">AC</button>
-                <button class="button operator">Del</button>
-                <button class="button operator">%</button>
-                <button class="button operator">/</button>
-            </div>
-            <div>
-                <button class="button">1</button>
-                <button class="button">2</button>
-                <button class="button">3</button>
-                <button class="button operator">+</button>
-            </div>
-            <div>
-                <button class="button">4</button>
-                <button class="button">5</button>
-                <button class="button">6</button>
-                <button class="button operator">-</button>
-            </div>
-            <div>
-                <button class="button">7</button>
-                <button class="button">8</button>
-                <button class="button">9</button>
-                <button class="button operator">*</button>
-            </div>
-            <div>
-                <button class="button">0</button>
-                <button class="button">00</button>
-                <button class="button">.</button>
-                <button class="button equalbtn">=</button>
-            </div>
+            <button class="button operator">AC</button>
+            <button class="button operator">Del</button>
+            <button class="button operator">%</button>
+            <button class="button operator">/</button>
+
+            <button class="button">7</button>
+            <button class="button">8</button>
+            <button class="button">9</button>
+            <button class="button operator">*</button>
+
+            <button class="button">4</button>
+            <button class="button">5</button>
+            <button class="button">6</button>
+            <button class="button operator">-</button>
+
+            <button class="button">1</button>
+            <button class="button">2</button>
+            <button class="button">3</button>
+            <button class="button operator">+</button>
+
+            <button class="button">0</button>
+            <button class="button">00</button>
+            <button class="button">.</button>
+            <button class="button equalbtn">=</button>
         </div>
     </div>
-    <img src="https://i.pinimg.com/736x/bb/2a/87/bb2a87f1adf4699dde1162e3771ab005.jpg" id="ima">
-<script src="script.js"></script>
+</div>
+    <script src="script.js"></script>
 </body>
 </html>
